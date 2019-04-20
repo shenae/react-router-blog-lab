@@ -3,7 +3,8 @@
 a {
   margin: 20px 30px 0px 0px;
   font-family: "Abril", serif;
-  color: darkblue;
+  color: goldenrod;
+  font-family: 'Abril Fatface', cursive;
 }
 
 body {
@@ -14,6 +15,8 @@ body {
 }
 nav {
   display: inline-block;
+  padding: 10px;
+  color: yellow;
 }
 
 ul {
@@ -28,7 +31,7 @@ body {
 }
 
 h1 {
-  font-size: 26px;
+  font-size: 30px;
   color: darkblue;
   text-transform: uppercase;
   text-align: center;

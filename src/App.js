@@ -15,11 +15,12 @@ class App extends Component {
             <Link to="/">Home</Link>
             <Link to="/About">About</Link>
             <Link to="/Blog">Blog</Link>
+            <Link to="/FavoriteFood">Favorite Food</Link>
+            <Link to="/FavoriteMovie">Favorite Movie</Link>
       </nav>
       <main>
-      <h1>Shenae's Awesome React Blog</h1>
         <Route path="/" exact component={Home}/> 
-        <Route path="/components/About" render={About}/>
+        <Route path="/About" render={About}/>
         <Route path="/Blog" render={Blog}/>
         <Route path="/FavoriteFood" render={FavoriteFood}/>
         <Route path="/FavoriteMovie" render={FavoriteMovie}/>
