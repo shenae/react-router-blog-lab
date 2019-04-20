@@ -1,29 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Post from './App';
+import { BrowserRouter as Router } from "react-router-dom";
+import App from './App';
 import './index.css';
 
-var post = {
-  title: "Dinosaurs are awesome",
-  authors: [
-    "Stealthy Stegosaurus",
-    "Tiny trex",
-    "Iguanadon Ivory"
-  ],
-  body: "Check out this body property!",
-  comments: [
-    "First!",
-    "Great post!",
-    "Hire him!"
-  ]
-}
 
 ReactDOM.render(
-  <Post
-    title={post.title}
-    allAuthors={post.authors}
-    body={post.body}
-    comments={post.comments}
-  />,
+  <Router>
+      <App />
+  </Router>,
   document.getElementById('root')
-);
+  );
